@@ -1,0 +1,37 @@
+.bg-secondary {
+    background-color: #F6F6F6 ;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-col {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 3rem ;
+    padding-left: 3rem ;
+}
+
+.second-col {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.second-col__list {
+    height: 100% ;
+    display: flex ;
+    background-color: #F3525A ;
+    padding: 3rem ;
+    justify-content: center ;
+    flex-direction: column ;
+}
+
+.list__item {
+    display: flex ;
+    color: #fff ;
+    margin-bottom: 3rem ;
+}

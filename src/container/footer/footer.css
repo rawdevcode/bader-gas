@@ -1,0 +1,40 @@
+footer {
+    background-color: #152440;
+    color: #F6F6F6;
+}
+
+.first-footer {
+    padding: 3rem;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.inner-nav {
+    display: flex;
+    flex-direction: column;
+}
+.second-footer {
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.text-secondary {
+    color: #F6F6F6;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
