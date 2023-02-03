@@ -1,5 +1,7 @@
 import React from "react";
 import "./header.css";
+import logo from '../../assets/images/colored-logo.svg'
+
 
 const Header = () => {
   return (
@@ -7,7 +9,9 @@ const Header = () => {
       <div className="container">
         <nav className="main-nav">
           {/* ***** Logo Start ***** */}
-          <a href="index.html" className="logo"></a>
+          <a href="#" className="logo">
+            <img src={logo} alt="colored logo" />
+          </a>
           {/* ***** Logo End ***** */}
           {/* ***** Menu Start ***** */}
           <ul className="nav" role="list">
