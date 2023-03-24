@@ -1,0 +1,20 @@
+{
+    "menu": {
+        "home": "Home",
+        "services": "Services",
+        "quote": "Quote",
+        "aboutUs": "About Us",
+        "partners": "Partners",
+        "language": "العربية"
+    },
+    "header": {
+        "services": "Services",
+        "quote": "Quote",
+        "aboutUs": "About Us",
+        "partners": "Our Partners"
+    },
+    "copyRight": {
+        "name": "Badr Gas Services Corporation",
+        "description": "All Rights Reserved"
+    }
+}

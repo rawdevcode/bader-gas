@@ -1,0 +1,15 @@
+{
+    "menu": {
+        "home": "Home",
+        "services": "Services",
+        "quote": "Quote",
+        "aboutUs": "About Us",
+        "partners": "Partners"
+    },
+    "header": {
+        "services": "Services",
+        "quote": "Quote",
+        "aboutUs": "About Us",
+        "partners": "Our Partners"
+    }
+}

@@ -1,7 +1,12 @@
 import React from "react";
+import {useTranslation} from 'react-i18next';
 import './footer.css';
 
+
 const Footer = () => {
+
+  const {t, i18n} = useTranslation();
+
   return (
     <footer>
       <div className="container first-footer">
@@ -10,24 +15,23 @@ const Footer = () => {
             <h3 className="text-white mb-4">Quick Links</h3>
             <div className="inner-nav">
               <a className="text-secondary mb-2" href="#">
-                Home
+                {t('menu.home')}
               </a>
-              <a className="text-secondary mb-2" href="#">
-                About Us
+              <a className="text-secondary mb-2" href="#AboutUs">
+                {t('menu.aboutUs')}
               </a>
-              <a className="text-secondary mb-2" href="#">
-                Our Services
+              <a className="text-secondary mb-2" href="#Services">
+                {t('menu.services')}
               </a>
-              <a className="text-secondary mb-2" href="#">
-                Latest Blog
-                Post
+              <a className="text-secondary mb-2" href="#Quote">
+                {t('menu.quote')}
               </a>
-              <a className="text-secondary" href="#">
-                Contact Us
+              <a className="text-secondary" href="#Partners">
+                {t('menu.partners')}
               </a>
             </div>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <h3 className="text-white mb-4">Popular Links</h3>
             <div className="inner-nav">
               <a className="text-secondary mb-2" href="#">
@@ -47,7 +51,7 @@ const Footer = () => {
                 Contact Us
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col">
             <h3 className="text-white mb-4">Get In Touch</h3>
             <p className="mb-2">
@@ -56,10 +60,10 @@ const Footer = () => {
             </p>
             <p className="mb-2">
               <i className="bi bi-envelope-open text-primary me-2"></i>
-              info@example.com
+              info@badrgas.com
             </p>
             <p className="mb-0">
-              <i className="bi bi-telephone text-primary me-2"></i>+012 345 67890
+              <i className="bi bi-telephone text-primary me-2"></i>+966505489212
             </p>
           </div>
           <div className="col">
@@ -100,12 +104,9 @@ const Footer = () => {
         <p>
           ©{" "}
           <a className="text-secondary border-bottom" href="#">
-            Your Site Name
+            {t('copyRight.name')}
           </a>
-          . All Rights Reserved. Designed by{" "}
-          <a className="text-secondary border-bottom" href="https://htmlcodex.com">
-            HTML Codex
-          </a>
+          . {t('copyRight.description')}.
         </p>
       </div>
     </footer>

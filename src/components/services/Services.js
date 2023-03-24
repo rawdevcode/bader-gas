@@ -3,7 +3,7 @@ import "./services.css";
 
 const Services = () => {
   return (
-    <div style={{ height: '100vh', display: "flex", justifyContent: "center", alignItems: "center" }}> 
+    <div id="Services" style={{ height: '100vh', display: "flex", justifyContent: "center", alignItems: "center" }}> 
     <h1>Services</h1>
     </div>
     // <div className="service__container">
