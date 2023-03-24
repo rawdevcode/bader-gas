@@ -19,7 +19,7 @@ const Footer = () => {
               </a>
               <a className="text-secondary mb-2" href="#AboutUs">
                 {t('menu.aboutUs')}
-              </a>
+              </a>                          
               <a className="text-secondary mb-2" href="#Services">
                 {t('menu.services')}
               </a>
