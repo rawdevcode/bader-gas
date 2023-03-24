@@ -5,9 +5,9 @@ const Main = () => {
   return (
     <>
       <Banner />
-      <About />
       <Services />
       <Quote />
+      <About /> 
       <Client />
     </>
   );

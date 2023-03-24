@@ -4,8 +4,9 @@ import quote from '../../assets/images/quote.jpg'
 
 const Quote = () => {
   return (
-    <div className="container-fluid bg-secondary px-0">
-      <div className="row">
+    <div className="container-fluid bg-secondary px-0" style={{ height: '100vh', display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <h1>Quote</h1>
+      {/* <div className="row">
         <div className="col-lg-6 py-6 px-5">
           <h1 className="display-5 mb-4">Request A Free Quote</h1>
           <p className="mb-4">
@@ -59,7 +60,7 @@ const Quote = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

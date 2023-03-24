@@ -4,8 +4,9 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="bg-secondary">
-      <div className="row">
+    <div className="bg-secondary" style={{ height: '100vh', display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <h1>About Us</h1>
+      {/* <div className="row">
         <div className="first-col">
           <h1 className="display-5 mb-4">
             Welcome To <span className="text-primary">CONSULT</span>
@@ -78,7 +79,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
