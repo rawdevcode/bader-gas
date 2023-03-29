@@ -1,3 +1,18 @@
+.aboutUs__container {
+    padding-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .bg-secondary {
     background-color: #F6F6F6 ;
 }
@@ -9,7 +24,9 @@
 
 .first-col {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     padding-top: 90px;
     padding-bottom: 90px;
     padding-right: 3rem ;
@@ -18,13 +35,14 @@
 
 .second-col {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 0 !important;
+    background-color: #336C70 ;
 }
 
 .second-col__list {
     height: 100% ;
     display: flex ;
-    background-color: #F3525A ;
     padding: 3rem ;
     justify-content: center ;
     flex-direction: column ;

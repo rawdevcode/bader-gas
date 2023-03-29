@@ -1,25 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {useTranslation} from 'react-i18next';
 import "./header.css";
 import logo from "../../assets/images/colored-logo.svg";
 
 const Header = () => {
   const [menu, setMenu] = useState(null);
-  const onScrollEvent = (e) => {
-    console.log('scroll')
-  }
+  const [bgColor, setBgColor] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setBgColor(window.pageYOffset > 200)
+      );
+    }
+  }, []);
 
   const {t} = useTranslation();
 
   return (
     <>
-      <header >
-        <div onScroll={onScrollEvent} className="container">
+      <header className={bgColor ? 'bgColor' : ''}>
+        <div className="container">
           <nav className="main-nav">
             {/* ***** Logo Start ***** */}
             <a href="#" className="logo">
-              <img src={logo} alt="colored logo" />
-              <div>
+              <img className='imgHeight' style={bgColor ? {height: 50, padding:3} : {}} src={logo} alt="colored logo" />
+              <div style={bgColor ? {fontSize: '0.55rem'} : {}}>
                 <span>مؤسسة بدر لخدمات الغاز</span>
                 <span>Badr Gas Services Corporation</span>
               </div>

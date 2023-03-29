@@ -3,12 +3,14 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "./banner.css";
 
-import carousel1 from "../../assets/images/carousel-1.jpg";
+import carousel1 from "../../assets/images/carousel-1.png";
+import carousel2 from "../../assets/images/carousel-2.png";
+import carousel3 from "../../assets/images/carousel-3.png";
 
 const slides = [
   { title: "First item", description: "Lorem ipsum", image: carousel1 },
-  { title: "Second item", description: "Lorem ipsum", image: carousel1 },
-  { title: "Third item", description: "Lorem ipsum", image: carousel1 },
+  { title: "Second item", description: "Lorem ipsum", image: carousel2 },
+  { title: "Third item", description: "Lorem ipsum", image: carousel3 },
 ];
 
 const Banner = () => {
@@ -24,7 +26,7 @@ const Banner = () => {
                 <h1 class="display-1 text-white mb-md-4">
                   {slide.description}
                 </h1>
-                <a
+                {/* <a
                   href=""
                   class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill"
                 >
@@ -35,7 +37,7 @@ const Banner = () => {
                   class="btn btn-secondary py-md-3 px-md-5 rounded-pill"
                 >
                   Contact Us
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ const Main = () => {
     <>
       <Banner />
       <Services />
-      <Quote />
+      {/* <Quote /> */}
       <About /> 
       <Client />
     </>

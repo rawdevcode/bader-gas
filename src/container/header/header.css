@@ -11,6 +11,16 @@ header {
     transition: all .5s ease 0s;
 }
 
+.bgColor {
+    background-color: #2F215A;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.207);
+}
+
+.imgHeight {
+    transition: all .5s ease 0s;
+}
+
 .container {
     flex: 1;
     max-width: 1140px;
@@ -43,6 +53,7 @@ header {
     font-size: 0.75rem;
     margin-left: 1rem;
     color: #ffffff;
+    transition: all .5s ease 0s;
 }
 
 .container .main-nav .logo>div :nth-child(1) {

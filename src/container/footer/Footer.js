@@ -1,5 +1,8 @@
 import React from "react";
+// import '../../components/fontAwesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {useTranslation} from 'react-i18next';
+import qrcode from '../../assets/images/qrcode.svg'
 import './footer.css';
 
 
@@ -55,8 +58,7 @@ const Footer = () => {
           <div className="col">
             <h3 className="text-white mb-4">Get In Touch</h3>
             <p className="mb-2">
-              <i className="bi bi-geo-alt text-primary me-2"></i>123 Street, New
-              York, USA
+              <i className="bi bi-geo-alt text-primary me-2"></i>Riyadh, KSA
             </p>
             <p className="mb-2">
               <i className="bi bi-envelope-open text-primary me-2"></i>
@@ -70,30 +72,35 @@ const Footer = () => {
             <h3 className="text-white mb-4">Follow Us</h3>
             <div className="d-flex">
               <a
-                className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
+                className="btn btn-lg  btn-lg-square rounded-circle me-2"
                 href="#"
               >
-                <i className="fab fa-twitter fw-normal"></i>
+                <FontAwesomeIcon icon="fa-brands fa-twitter" />
               </a>
               <a
-                className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
+                className="btn btn-lg  btn-lg-square rounded-circle me-2"
                 href="#"
               >
-                <i className="fab fa-facebook-f fw-normal"></i>
+                <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
               </a>
               <a
-                className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2"
+                className="btn btn-lg  btn-lg-square rounded-circle me-2"
                 href="#"
               >
-                <i className="fab fa-linkedin-in fw-normal"></i>
+                <FontAwesomeIcon icon="fa-brands fa-instagram" />
               </a>
               <a
-                className="btn btn-lg btn-primary btn-lg-square rounded-circle"
-                href="#"
+                className="btn btn-lg  btn-lg-square rounded-circle"
+                href="whatsapp://send?phone=3464478983"
               >
-                <i className="fab fa-instagram fw-normal"></i>
+                <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </a>
             </div>
+          </div>
+          <div className="col">
+            <p className="mb-2">
+              <img src={qrcode}  />
+            </p>
           </div>
         </div>
       </div>
