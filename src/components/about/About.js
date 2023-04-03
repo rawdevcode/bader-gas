@@ -19,64 +19,62 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="first-col">
-          <div className="about__container">
-            <h1 className="display-5 mb-4">
-              Welcome To <span className="text-primary">Badr Gas Services Corporation</span>
-            </h1>
-            <h4 className="text-primary mb-4">
-              who are we?
-            </h4>
-            <p className="mb-4">
-              It was founded by a group of former technicians in the National Gas and Industrialization Company, who have long experience in the field of liquefied petroleum gas services, harnessing in this institution a juice of experience of up to thirty-six years of giving to provide all the necessary services to our valued customers with a group of qualified and excellently trained workers To reach the highest levels of professionalism.
-            </p>
-          </div>
+      <div className="first-col">
+        <div className="about__container">
+          <h1 className="display-5 mb-4">
+            Welcome To <span className="text-primary">Badr Gas Services Corporation</span>
+          </h1>
+          <h4 className="text-primary mb-4">
+            who are we?
+          </h4>
+          <p style={{textAlign: 'center'}} className="mb-4">
+            It was founded by a group of former technicians in the National Gas and Industrialization Company, who have long experience in the field of liquefied petroleum gas services, harnessing in this institution a juice of experience of up to thirty-six years of giving to provide all the necessary services to our valued customers with a group of qualified and excellently trained workers To reach the highest levels of professionalism.
+          </p>
         </div>
-        <div className="second-col">
-          <div className="about__container">
-            <div className="second-col__list">
-              <div className="list__item">
-                <div
-                  className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                  style={{ width: 60, height: 60 }}
-                >
-                  {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" size='2xl'/> */}
-                </div>
-                <div className="ps-4">
-                  <h3>{t('aboutUs.target1.title')}</h3>
-                  <p className="mb-0">
-                    {t('aboutUs.target1.content')}
-                  </p>
-                </div>
+      </div>
+      <div className="second-col">
+        <div className="about__container">
+          <div className="second-col__list">
+            <div className="list__item">
+              <div
+                className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                style={{ width: 60, height: 60 }}
+              >
+                <FontAwesomeIcon icon="fa-solid fa-eye" size='2xl'/>
               </div>
-              <div className="list__item">
-                <div
-                  className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                  style={{ width: 60, height: 60 }}
-                >
-                  {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" size='2xl'/> */}
-                </div>
-                <div className="ps-4">
-                  <h3>{t('aboutUs.target2.title')}</h3>
-                  <p className="mb-0">
-                    {t('aboutUs.target2.content')}
-                  </p>
-                </div>
+              <div className="ps-4">
+                <h3>{t('aboutUs.target1.title')}</h3>
+                <p className="mb-0">
+                  {t('aboutUs.target1.content')}
+                </p>
               </div>
-              <div className="list__item">
-                <div
-                  className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
-                  style={{ width: 60, height: 60 }}
-                >
-                  {/* <FontAwesomeIcon icon="fa-brands fa-whatsapp" size='2xl'/> */}
-                </div>
-                <div className="ps-4">
-                  <h3>{t('aboutUs.target3.title')}</h3>
-                  <p className="mb-0">
-                    {t('aboutUs.target3.content')}
-                  </p>
-                </div>
+            </div>
+            <div className="list__item">
+              <div
+                className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                style={{ width: 60, height: 60 }}
+              >
+                <FontAwesomeIcon icon="fa-solid fa-message" size='2xl'/>
+              </div>
+              <div className="ps-4">
+                <h3>{t('aboutUs.target2.title')}</h3>
+                <p className="mb-0">
+                  {t('aboutUs.target2.content')}
+                </p>
+              </div>
+            </div>
+            <div className="list__item">
+              <div
+                className="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                style={{ width: 60, height: 60 }}
+              >
+                <FontAwesomeIcon icon="fa-solid fa-anchor" size='2xl'/>
+              </div>
+              <div className="ps-4">
+                <h3>{t('aboutUs.target3.title')}</h3>
+                <p className="mb-0">
+                  {t('aboutUs.target3.content')}
+                </p>
               </div>
             </div>
           </div>

@@ -17,6 +17,9 @@ import {
   faHelmetSafety,
   faHandHoldingHeart,
   faShield,
+  faMessage,
+  faLegal,
+  faAnchor,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -31,7 +34,10 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 library.add(
+  faAnchor,
+  faLegal,
   faShield,
+  faMessage,
   faHandHoldingHeart,
   faHelmetSafety,
   faRightLeft,

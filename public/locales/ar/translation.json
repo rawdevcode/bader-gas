@@ -1,15 +1,48 @@
 {
     "menu": {
-        "home": "Home",
-        "services": "Services",
+        "home": "الرئيسية",
+        "services": "خدماتنا",
         "quote": "Quote",
-        "aboutUs": "About Us",
-        "partners": "Partners"
+        "aboutUs": "من نحن",
+        "partners": "عملائنا",
+        "language": "English"
     },
     "header": {
         "services": "Services",
         "quote": "Quote",
         "aboutUs": "About Us",
         "partners": "Our Partners"
+    },
+    "services": {
+        "header": "Our Services"
+    },
+    "aboutUs": {
+        "header": "About Us",
+        "target1": {
+            "title": "Our Vision",
+            "content": "We hope to be the first reliable choice through professional and highly reliable services and our constant endeavor to apply the highest levels of quality to reach the best results for the comfort and safety of our customers."
+        },
+        "target2": {
+            "title": "Our Message",
+            "content": "Working with all our efforts to provide solutions in the field of maintaining liquefied petroleum gas tanks and networks to all our valued customers that suit their needs."
+        },
+        "target3": {
+            "title": "Our Values",
+            "content": "Commitment to all standards and requirements in the field of safety, professional gas services and quality. Our continuous pursuit of development in order to provide solutions for the convenience of our valued customers.."
+        }
+    },
+    "clients": {
+        "header": "Our Partners",
+        "subHeader": "",
+        "client1": "",
+        "client2": "",
+        "client3": "",
+        "client4": "",
+        "client5": "",
+        "client6": ""
+    },
+    "copyRight": {
+        "name": "Badr Gas Services Corporation",
+        "description": "All Rights Reserved"
     }
 }

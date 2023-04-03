@@ -6,6 +6,7 @@ import pnu from '../../assets/images/pnu.png'
 import rotana from '../../assets/images/rotana.png'
 import gasco from '../../assets/images/gasco.png'
 import gassolutions from '../../assets/images/gas-solutions.png'
+import dawahi from '../../assets/images/dawahi.png'
 
 const Client = () => {
     const { t } = useTranslation();
@@ -95,11 +96,11 @@ const Client = () => {
                         <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
-                                    <img src={gassolutions} className="img-responsive clients-img" />
+                                    <img src={dawahi} className="img-responsive clients-img" />
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                        Gas Solutions
+                                        Dawahi Altaayif
                                     </h3>
 
                                 </div>
