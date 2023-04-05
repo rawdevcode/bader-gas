@@ -28,10 +28,10 @@ const Services = () => {
               {/* <i className="fa fa-user-tie fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-wrench" />
             </div>
-            <h3 className="mb-3">Maintenance</h3>
+            <h3 className="mb-3">
+              {t('services.card1.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card1.description')}
             </p>
           </div>
         </div>
@@ -43,10 +43,10 @@ const Services = () => {
               {/* <i className="fa fa-chart-pie fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-lightbulb" />
             </div>
-            <h3 className="mb-3">Implement</h3>
+            <h3 className="mb-3">
+              {t('services.card2.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card2.description')}
             </p>
           </div>
         </div>
@@ -58,10 +58,10 @@ const Services = () => {
               {/* <i className="fa fa-chart-line fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-right-left" />
             </div>
-            <h3 className="mb-3">Supply</h3>
+            <h3 className="mb-3">
+              {t('services.card3.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card2.description')}
             </p>
           </div>
         </div>
@@ -73,10 +73,10 @@ const Services = () => {
               {/* <i className="fa fa-chart-area fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-helmet-safety" />
             </div>
-            <h3 className="mb-3">Supervisor</h3>
+            <h3 className="mb-3">
+              {t('services.card4.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card4.description')}
             </p>
           </div>
         </div>
@@ -88,10 +88,10 @@ const Services = () => {
               {/* <i className="fa fa-balance-scale fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-hand-holding-heart" />
             </div>
-            <h3 className="mb-3">Provide</h3>
+            <h3 className="mb-3">
+              {t('services.card5.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card5.description')}
             </p>
           </div>
         </div>
@@ -103,10 +103,10 @@ const Services = () => {
               {/* <i className="fa fa-house-damage fa-2x"></i> */}
               <FontAwesomeIcon size="2xl" style={{ color: "#336C70" }} icon="fa-solid fa-shield" />
             </div>
-            <h3 className="mb-3">Contracts &amp; Protection</h3>
+            <h3 className="mb-3">
+              {t('services.card6.title')}</h3>
             <p className="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat
-              ipsum lorem et sit sed stet lorem
+              {t('services.card6.description')}
             </p>
           </div>
         </div>

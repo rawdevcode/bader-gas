@@ -22,13 +22,13 @@ const About = () => {
       <div className="first-col">
         <div className="about__container">
           <h1 className="display-5 mb-4">
-            Welcome To <span className="text-primary">Badr Gas Services Corporation</span>
+            {t('aboutUs.body.header')}
           </h1>
           <h4 className="text-primary mb-4">
-            who are we?
+            {t('aboutUs.body.question')}
           </h4>
           <p style={{textAlign: 'center'}} className="mb-4">
-            It was founded by a group of former technicians in the National Gas and Industrialization Company, who have long experience in the field of liquefied petroleum gas services, harnessing in this institution a juice of experience of up to thirty-six years of giving to provide all the necessary services to our valued customers with a group of qualified and excellently trained workers To reach the highest levels of professionalism.
+            {t('aboutUs.body.answer')}
           </p>
         </div>
       </div>

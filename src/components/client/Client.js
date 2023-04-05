@@ -35,7 +35,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                    Alromansiah
+                                        {t('clients.client1')}
                                     </h3>
 
                                 </div>
@@ -48,7 +48,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                    Princess Nourah University 
+                                        {t('clients.client2')}
                                     </h3>
 
                                 </div>
@@ -61,7 +61,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                        Rayhaan Rosh
+                                        {t('clients.client3')}
                                     </h3>
 
                                 </div>
@@ -74,7 +74,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                        Gasco
+                                        {t('clients.client4')}
                                     </h3>
 
                                 </div>
@@ -87,7 +87,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                        Gas Solutions
+                                        {t('clients.client5')}
                                     </h3>
 
                                 </div>
@@ -100,7 +100,7 @@ const Client = () => {
                                 </div>
                                 <div className="card-box">
                                     <h3 className="client-name mbr-fonts-style display-5">
-                                        Dawahi Altaayif
+                                        {t('clients.client6')}
                                     </h3>
 
                                 </div>

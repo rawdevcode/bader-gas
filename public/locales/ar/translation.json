@@ -8,41 +8,74 @@
         "language": "English"
     },
     "header": {
-        "services": "Services",
+        "services": "خدمتنا",
         "quote": "Quote",
-        "aboutUs": "About Us",
-        "partners": "Our Partners"
+        "aboutUs": "من نحن",
+        "partners": "عملائنا"
     },
     "services": {
-        "header": "Our Services"
+        "header": "خدمتنا",
+        "card1": {
+            "title": "صيانة",
+            "description": "فحص وصيانه خزانات غاز البترول المسال"
+        },
+        "card2": {
+            "title": "تنفيذ",
+            "description": "فحص وتنفيذ شبكات غاز البترول المسال"
+        },
+        "card3": {
+            "title": "توريد",
+            "description": "توريد وتركيب الخزانات"
+        },
+        "card4": {
+            "title": "اشراف",
+            "description": "اشراف وتنفنيذ اعمال دفن الخزانات تحت الارض"
+        },
+        "card5": {
+            "title": "توفير",
+            "description": "توفير قطع غيار خزانات الغاز المركزيه ةشبكه الغاز المركزي"
+        },
+        "card6": {
+            "title": "الحمايو و عقود الصيانة",
+            "description": "تنفيذ نظام الحمايه وصمامات الامان و عقود الصيانه والتشغيل"
+        }
     },
     "aboutUs": {
-        "header": "About Us",
+        "header": "من نحن",
+        "body": {
+            "header": "مرحبا بكم في مؤسسة بدر لخدمات الغاز",
+            "question": "من نحن؟",
+            "answer": "تأسست علي يد مجموعه من الفنيين السابقين في شركة الغاز والتصنيع الاهليه أصحاب الخبرات الطويله في مجال خدمات غاز التبرول المسال مسخرين في هذه المؤسسه عصارة خبرات تصل الي سته وثلاثون عاما من العطاء لتوفير كل ما يلزم من خدمات لعملائنا الكرام مع مجموعه من العمال المؤهلين والمدربين بصوره ممتازه للوصول الي أعلى مستويات من الاحترافية"
+        },
         "target1": {
-            "title": "Our Vision",
-            "content": "We hope to be the first reliable choice through professional and highly reliable services and our constant endeavor to apply the highest levels of quality to reach the best results for the comfort and safety of our customers."
+            "title": "الرؤية",
+            "content": "نأمل أن نكون الخيار الاول الموثوق من خلال خدمات تمتاز بالاحترافيه والموثوقيه العاليه وسعينا المستمر في تطبيق اعلي مستويات من الجوده للوصول لافضل النتائج من أجل راحه وامان عملائنا"
         },
         "target2": {
-            "title": "Our Message",
-            "content": "Working with all our efforts to provide solutions in the field of maintaining liquefied petroleum gas tanks and networks to all our valued customers that suit their needs."
+            "title": "رسالتنا",
+            "content": "العمل باقصى جهودنا لتوفير حلول في مجال صيانه خزانات وشبكات غاز البترول المسال لجميع عملائنا الكرام تناسب احتياجاتهم"
         },
         "target3": {
-            "title": "Our Values",
-            "content": "Commitment to all standards and requirements in the field of safety, professional gas services and quality. Our continuous pursuit of development in order to provide solutions for the convenience of our valued customers.."
+            "title": "قيمنا",
+            "content": "الالتزام بكافه المعايير والاشتراطات في مجال السلامه وخدمات الغاز الاحترافيه والجوده سعينا المستمر للتطور من اجل توفير حلول لراحه عملائنا الكرام"
         }
     },
     "clients": {
-        "header": "Our Partners",
-        "subHeader": "",
-        "client1": "",
-        "client2": "",
-        "client3": "",
-        "client4": "",
-        "client5": "",
-        "client6": ""
+        "header": "عملائنا",
+        "client1": "الرومنسية",
+        "client2": "جامعة الاميرة نورة",
+        "client3": "ريحان روش",
+        "client4": "غازكو",
+        "client5": "حلول الغاز",
+        "client6": "ضواخي الطايف"
+    },
+    "footer": {
+        "title1": "روابط سريعة",
+        "title2": "للتواصل",
+        "title3": "تابعنا على"
     },
     "copyRight": {
-        "name": "Badr Gas Services Corporation",
-        "description": "All Rights Reserved"
+        "name": "مؤسسة بدر لخدمات الغاز",
+        "description": "كل الحقوق محفوظة"
     }
 }

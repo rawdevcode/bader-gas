@@ -14,10 +14,39 @@
         "partners": "Our Partners"
     },
     "services": {
-        "header": "Our Services"
+        "header": "Our Services",
+        "card1": {
+            "title": "Maintenance",
+            "description": "Inspection and maintenance of LPG tanks"
+        },
+        "card2": {
+            "title": "Implement",
+            "description": "Examination and implementation of liquefied petroleum gas networks"
+        },
+        "card3": {
+            "title": "Supply",
+            "description": "Supply and installation of tanks"
+        },
+        "card4": {
+            "title": "Supervisor",
+            "description": "Supervising and executing the work of burying underground tanks"
+        },
+        "card5": {
+            "title": "Provide",
+            "description": "Providing spare parts for central gas tanks in the central gas network"
+        },
+        "card6": {
+            "title": "Contracts & Protection",
+            "description": "Implementation of the protection system, safety valves, maintenance and operation contracts"
+        }
     },
     "aboutUs": {
         "header": "About Us",
+        "body": {
+            "header": "Welcome To Badr Gas Services Corporation",
+            "question": "who are we?",
+            "answer": "It was founded by a group of former technicians in the National Gas and Industrialization Company, who have long experience in the field of liquefied petroleum gas services, harnessing in this institution a juice of experience of up to thirty-six years of giving to provide all the necessary services to our valued customers with a group of qualified and excellently trained workers To reach the highest levels of professionalism."
+        },
         "target1": {
             "title": "Our Vision",
             "content": "We hope to be the first reliable choice through professional and highly reliable services and our constant endeavor to apply the highest levels of quality to reach the best results for the comfort and safety of our customers."
@@ -33,13 +62,17 @@
     },
     "clients": {
         "header": "Our Partners",
-        "subHeader": "",
-        "client1": "",
-        "client2": "",
-        "client3": "",
-        "client4": "",
-        "client5": "",
-        "client6": ""
+        "client1": "Alromansiah",
+        "client2": "Princess Nourah University",
+        "client3": "Rayhaan Rosh",
+        "client4": "Gasco",
+        "client5": "Gas Solutions",
+        "client6": "Dawahi Altaayif"
+    },
+    "footer": {
+        "title1": "Quick Links",
+        "title2": "Get In Touch",
+        "title3": "Follow Us"
     },
     "copyRight": {
         "name": "Badr Gas Services Corporation",

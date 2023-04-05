@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <>
-      <header className={bgColor ? 'bgColor' : ''}>
+      <header dir={i18n.language === 'en' ? '' : 'rtl'} className={bgColor ? 'bgColor' : ''}>
         <div className="container">
           <nav className="main-nav">
             {/* ***** Logo Start ***** */}

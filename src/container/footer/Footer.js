@@ -11,11 +11,11 @@ const Footer = () => {
   const {t, i18n} = useTranslation();
 
   return (
-    <footer>
+    <footer dir={i18n.language === 'en' ? '' : 'rtl'}>
       <div className="container first-footer">
         <div className="footer-nav">
           <div className="col">
-            <h3 className="text-white mb-4">Quick Links</h3>
+            <h3 className="text-white mb-4">{t('footer.title1')}</h3>
             <div className="inner-nav">
               <a className="text-secondary mb-2" href="#">
                 {t('menu.home')}
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           </div> */}
           <div className="col">
-            <h3 className="text-white mb-4">Get In Touch</h3>
+            <h3 className="text-white mb-4">{t('footer.title2')}</h3>
             <p className="mb-2">
               <i className="bi bi-geo-alt text-primary me-2"></i>Riyadh, KSA
             </p>
@@ -69,7 +69,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="col">
-            <h3 className="text-white mb-4">Follow Us</h3>
+            <h3 className="text-white mb-4">{t('footer.title3')}</h3>
             <div className="d-flex">
               <a
                 className="btn btn-lg  btn-lg-square rounded-circle me-2"
