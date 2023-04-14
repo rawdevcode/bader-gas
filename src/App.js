@@ -14,10 +14,12 @@ function App() {
     }, 2000);
   }, []);
 
+  console.log(loaded && window.screen.width !=700);
+
   return (
     <>
       <ThemeProvider theme={dark}>
-        <AnimatePresence>{loaded ? null : <Loading />}</AnimatePresence>
+        <AnimatePresence>{loaded && window.screen.width > 700 ? null : <Loading />}</AnimatePresence>
         <Header />
         <Main />
         <Footer />
