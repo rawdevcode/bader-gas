@@ -19,7 +19,8 @@ function App() {
   return (
     <>
       <ThemeProvider theme={dark}>
-        <AnimatePresence>{loaded && window.screen.width > 700 ? null : <Loading />}</AnimatePresence>
+        {/* <AnimatePresence>{loaded && window.screen.width > 700 ? null : <Loading />}</AnimatePresence> */}
+        {/* <AnimatePresence>{loaded ? null : <Loading />}</AnimatePresence> */}
         <Header />
         <Main />
         <Footer />

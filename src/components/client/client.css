@@ -104,3 +104,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 }
+
+@media (max-width: 740px) {
+    .row {
+        flex-direction: column;
+    }
+}

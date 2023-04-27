@@ -118,3 +118,9 @@ h2,
     background-color: #F6F6F6;
     border-color: #F6F6F6;
 }
+
+@media (max-width: 740px) {
+    .slide > .carousel-item > img {
+        max-width: 198%;
+    }
+}

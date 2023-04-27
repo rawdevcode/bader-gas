@@ -23,6 +23,15 @@ button {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.207);
 }
 
+.logoSize {
+    height: 50px!important;
+    padding: 3px;
+}
+
+.logoFont {
+    font-size: 0.55rem!important;
+}
+
 .imgHeight {
     transition: all .5s ease 0s;
 }
@@ -100,7 +109,7 @@ header .container .main-nav .menu-trigger span {
 
 header .container .main-nav .menu-trigger span {
     transition: all 0.4s;
-    background-color: #000000;
+    background-color: #ffffff;
     display: block;
     position: absolute;
     width: 30px;
@@ -123,7 +132,7 @@ header .container .main-nav .menu-trigger span:before,
 header .container .main-nav .menu-trigger span:after {
     width: 75%;
     display: block;
-    background-color: #000000;
+    background-color: #ffffff;
     position: absolute;
     height: 2px;
     left: 0;
@@ -143,7 +152,7 @@ header .container .main-nav .menu-trigger span:before,
 .menu {
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.207);
     z-index: 900;
     display: none;
@@ -154,7 +163,7 @@ header .container .main-nav .menu-trigger span:before,
     height: 100vh;
     position: absolute;
     right: 0;
-    background-color: rgb(242, 242, 246);
+    background-color: rgb(0, 0, 0);
     z-index: 999;
 }
 
@@ -193,14 +202,14 @@ header .container .main-nav .menu-trigger span:before,
 }
 
 @media (max-width: 767px) {
-    .container .main-nav .logo>div :nth-child(1) {
+    /* .container .main-nav .logo>div :nth-child(1) {
         font-size: 1.17em;
         font-weight: bold;
-    }
+    } */
 
-    .container .main-nav .logo>div :nth-child(2) {
+    /* .container .main-nav .logo>div :nth-child(2) {
         font-size: 0.75em;
-    }
+    } */
 
     .menu-trigger {
         display: block;
@@ -212,5 +221,20 @@ header .container .main-nav .menu-trigger span:before,
 
     header .container .main-nav .menu-trigger {
         right: 15px;
+    }
+
+    .bgColor {
+        background-color: #2F215A;
+        height: 100px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.207);
+    }
+
+    .logoSize {
+        height: 80px!important;
+        padding: 0px;
+    }
+    
+    .logoFont {
+        font-size: 0.75em!important;
     }
 }

@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
           <div className="col">
             <p className="mb-2">
-              <img src={qrcode}  />
+              <img className="barcode" src={qrcode}  />
             </p>
           </div>
         </div>
