@@ -11,7 +11,7 @@ const Header = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setBgColor(window.pageYOffset > 200)
+        setBgColor(window.pageYOffset > 100)
       );
     }
   }, []);
@@ -25,7 +25,6 @@ const Header = () => {
   return (
     <>
       <header
-        dir={i18n.language === "en" ? "ltr" : "rtl"}
         className={bgColor ? "bgColor" : ""}
       >
         <div className="container">
@@ -45,23 +44,23 @@ const Header = () => {
             </a>
             {/* ***** Logo End ***** */}
             {/* ***** Menu Start ***** */}
-            <ul className="nav" role="list">
+            <ul dir={i18n.language === "en" ? "ltr" : "rtl"} className="nav" role="list">
               <li>
-                <a href="index.html" className="active">
+                <a href="#" className="active">
                   {t("menu.home")}
                 </a>
               </li>
               <li>
-                <a href="category.html">{t("menu.services")}</a>
+                <a href="#services">{t("menu.services")}</a>
               </li>
               {/* <li>
                 <a href="listing.html">{t('menu.quote')}</a>
               </li> */}
               <li>
-                <a href="contact.html">{t("menu.aboutUs")}</a>
+                <a href="#aboutUs">{t("menu.aboutUs")}</a>
               </li>
               <li>
-                <a href="contact.html">{t("menu.partners")}</a>
+                <a href="#clients">{t("menu.partners")}</a>
               </li>
               <li>
                 {i18n.language === "en" ? (
@@ -76,7 +75,7 @@ const Header = () => {
                 {/* <a href="contact.html">{t('menu.language')}</a> */}
               </li>
             </ul>
-            <a onClick={() => setMenu("open")} className="menu-trigger">
+            <a onClick={() => setMenu("open")} className="menu-trigger" style={bgColor ? {top: 18} : null}>
               <span>Menu</span>
             </a>
 
@@ -92,21 +91,21 @@ const Header = () => {
         <div className="menu__container">
           <ul className="menu__list" role="list">
             <li>
-              <a href="index.html" className="active">
+              <a href="#" className="active">
                 {t("menu.home")}
               </a>
             </li>
             <li>
-              <a href="category.html">{t("menu.services")}</a>
+              <a href="#services">{t("menu.services")}</a>
             </li>
             {/* <li>
               <a href="listing.html">{t('menu.quote')}</a>
             </li> */}
             <li>
-              <a href="contact.html">{t("menu.aboutUs")}</a>
+              <a href="#aboutUs">{t("menu.aboutUs")}</a>
             </li>
             <li>
-              <a href="contact.html">{t("menu.partners")}</a>
+              <a href="#clients">{t("menu.partners")}</a>
             </li>
             <li>
               {i18n.language === "en" ? (

@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
           <div className="col">
             <h3 className="text-white mb-4">{t('footer.title3')}</h3>
-            <div className="d-flex">
+            <div className="d-flex gap">
               <a
                 className="btn btn-lg  btn-lg-square rounded-circle me-2"
                 href="#"
@@ -91,7 +91,7 @@ const Footer = () => {
               </a>
               <a
                 className="btn btn-lg  btn-lg-square rounded-circle"
-                href="whatsapp://send?phone=3464478983"
+                href="whatsapp://send?phone=505489212"
               >
                 <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
               </a>

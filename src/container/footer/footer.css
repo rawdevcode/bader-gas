@@ -40,6 +40,10 @@ footer {
     border-bottom: 1px solid #dee2e6;
 }
 
+.gap {
+    gap: 10px;
+}
+
 @media (max-width: 740px) {
 
     .first-footer {

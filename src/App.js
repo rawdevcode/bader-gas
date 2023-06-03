@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import { Loading } from "./components";
 import { Header, Main, Footer } from "./container";
 import { dark } from "./styles/Theme";
+import i18next from "i18next";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -12,15 +13,13 @@ function App() {
     setTimeout(() => {
       setLoaded(true);
     }, 2000);
+    i18next.changeLanguage('ar');
   }, []);
-
-  console.log(loaded && window.screen.width !=700);
 
   return (
     <>
       <ThemeProvider theme={dark}>
-        {/* <AnimatePresence>{loaded && window.screen.width > 700 ? null : <Loading />}</AnimatePresence> */}
-        {/* <AnimatePresence>{loaded ? null : <Loading />}</AnimatePresence> */}
+        <AnimatePresence>{loaded ? null : <Loading />}</AnimatePresence>
         <Header />
         <Main />
         <Footer />

@@ -6,7 +6,7 @@ import "./about.css";
 const About = () => {
   const { t } = useTranslation();
   return (
-    <section className="aboutUs__container">
+    <section id="aboutUs" className="aboutUs__container">
       <div className="container mb-4">
         <div className="media-container-row">
           <div className="col-12 align-center">

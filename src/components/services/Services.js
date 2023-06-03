@@ -6,7 +6,7 @@ import "./services.css";
 const Services = () => {
   const { t } = useTranslation();
   return (
-    <div className="service__container">
+    <div id="services" className="service__container">
       <div className="container mb-4">
         <div className="media-container-row">
           <div className="col-12 align-center">
@@ -61,7 +61,7 @@ const Services = () => {
             <h3 className="mb-3">
               {t('services.card3.title')}</h3>
             <p className="mb-0">
-              {t('services.card2.description')}
+              {t('services.card3.description')}
             </p>
           </div>
         </div>

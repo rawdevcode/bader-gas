@@ -12,7 +12,7 @@ const Client = () => {
     const { t } = useTranslation();
     return (
         <>
-            <section className="features3 cid-qKT6knwV2G" id="clients2-2p">
+            <section id="clients" className="features3 cid-qKT6knwV2G">
 
                 <div className="container mb-4">
                     <div className="media-container-row">
@@ -41,7 +41,7 @@ const Client = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-3 col-12 col-md-6 col-lg-3">
+                        {/* <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
                                     <img src={pnu} className="img-responsive clients-img" />
@@ -53,7 +53,7 @@ const Client = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
@@ -67,7 +67,7 @@ const Client = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-3 col-12 col-md-6 col-lg-3">
+                        {/* <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
                                     <img src={gasco} className="img-responsive clients-img" />
@@ -79,8 +79,8 @@ const Client = () => {
 
                                 </div>
                             </div>
-                        </div>
-                        <div className="p-3 col-12 col-md-6 col-lg-3">
+                        </div> */}
+                        {/* <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
                                     <img src={gassolutions} className="img-responsive clients-img" />
@@ -92,7 +92,7 @@ const Client = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="p-3 col-12 col-md-6 col-lg-3">
                             <div className="client-wrapper">
                                 <div className="wrap-img">
